@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class AppleandOrange {
 
+	//consider s and t is boundary of house, a and b are location where trees are there, 
+	//m and n are the distances that fruit is thrown from tree location
+	//ex: house lies b/w 7 and 10, apple tree is at 4, orange tree is at 12, 3 apples are thrown to distance 2,3,4 i.e 4+2,4+3,4+4 => 6,7,8 locations
+	//7,8 lies b/w 7 and 10, so 2 apples fall on the house.
 	@SuppressWarnings("resource")
 	public static void main(String[] args)
 	{
